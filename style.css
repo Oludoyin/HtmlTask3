@@ -1,0 +1,184 @@
+* {
+   align-content: center;
+}
+
+.container {
+    background-image: url(pattern.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: cover;
+    height:100vh ;
+    padding-top: 20px;
+    
+}
+
+.container-inner {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    height: 80vh;
+    width: 175vh;
+    padding: 20px;
+    background-image: url(bike.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 40px;
+    border: 3px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+
+
+#form {
+    display: block;
+    align-items: center;
+    padding-bottom: 40px;
+    font-weight: 500;
+    font-family: fantasy;
+    letter-spacing: 2px;
+}
+
+img {
+    border: 2px solid white;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px 100px 100px 100px;
+    margin-left: 30px;
+    margin-top: 40px;
+    image-resolution: 400px;
+
+}
+
+#summary {
+    font-weight: 500;
+    font-family: fantasy;
+    letter-spacing: 2px;
+}
+
+input {
+    padding-left: 20px;
+    border-radius: 4px;
+    width: 150px;
+    height: 15px;
+    padding: 5px 10px 5px 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-width: 0px;
+    margin-left: 10px;
+    
+}
+
+.item-a {
+    border: 3px solid white;
+    padding:10px;
+    margin-top:50px ;
+    width: 50vh;
+    height: 60vh;
+    border-radius: 10px;
+    padding-left:20px ;
+    padding-top: 10px;
+    color: white;
+    background-image: url(pattern.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: cover;
+    font-weight: 300;
+    font-family: fantasy;
+    letter-spacing: 2px;
+}
+
+.item-b {
+    border: 3px solid white;
+    padding: 10px;
+    width: 50vh;
+    height: 60vh;
+    padding-left: 40px;
+    margin-top: 50px;
+    border-radius: 10px;
+    background-image: url(pattern.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: cover;
+    color:white;
+    font-weight: 300;
+    font-family: fantasy;
+    letter-spacing: 2px;
+
+    
+}
+
+
+
+
+.item-c {
+    border: 3px solid white;
+    padding: 20px;
+    width: 50vh;
+    height: 60vh;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 50px;
+    background-image: url(pattern.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: cover;
+    color:white;
+    font-weight: 100;
+    font-family: fantasy;
+    letter-spacing: 2px;
+
+}
+
+span {
+    text-decoration: underline;
+    text-justify: left;
+    font-weight: 900;
+    margin-right: 20px;
+}
+
+.heading {
+    font-weight: 700;
+    font-size: 25px;
+    padding-bottom: 10px;
+    color:white;
+    text-align: center;
+    font-family: fantasy;
+
+}
+
+label {
+    padding-left: 20px;
+    margin-bottom:20px ;    
+}
+
+#text {
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+textarea {
+    align-self: center;
+    margin-top: 0px;
+    margin-left: 40px;
+    border-radius: 6px;
+    border-width: 0;
+    padding-left: 10px;
+    padding-top: 20px;
+    font-family: fantasy;
+    font-size: small;
+    
+}
+
+button {
+    align-self: center;
+    margin-left: 150px;
+    margin-top: 10px;
+    border-width: 0;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    font-family: fantasy;
+    font-size: small;
+}
