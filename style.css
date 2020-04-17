@@ -2,37 +2,58 @@
    align-content: center;
 }
 
-.container {
+body {
     background-image: url(pattern.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: cover;
-    height:100vh ;
+}
+
+.container {
     padding-top: 20px;
-    
 }
 
 .container-inner {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-    height: 80vh;
-    width: 175vh;
     padding: 20px;
     background-image: url(bike.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    margin-left: 40px;
     border: 3px;
     border-radius: 10px;
     margin-top: 20px;
+    min-height: 100vh;
+    
+}
+
+.item {
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%;
+    border: 3px solid white;
+    padding:10px;
+    margin-top:50px ;
+    border-radius: 10px;
+    color: white;
+    background-image: url(pattern.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: cover;
+    font-weight: 300;
+    font-family: 'Trebuchet MS';
+    letter-spacing: 2px;
+    height: 450px;
+}
+
+@media (min-width:40.063em) {
+    .container-inner {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
 }
 
 
-
 #form {
-    display: block;
+     display: block;
     align-items: center;
     padding-bottom: 40px;
     font-weight: 500;
@@ -67,69 +88,10 @@ input {
     margin-bottom: 5px;
     border-width: 0px;
     margin-left: 10px;
-    
-}
-
-.item-a {
-    border: 3px solid white;
-    padding:10px;
-    margin-top:50px ;
-    width: 50vh;
-    height: 60vh;
-    border-radius: 10px;
-    padding-left:20px ;
-    padding-top: 10px;
-    color: white;
-    background-image: url(pattern.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: cover;
-    font-weight: 300;
-    font-family: 'Trebuchet MS';
-    letter-spacing: 2px;
-}
-
-.item-b {
-    border: 3px solid white;
-    padding: 10px;
-    width: 50vh;
-    height: 60vh;
-    padding-left: 40px;
-    margin-top: 50px;
-    border-radius: 10px;
-    background-image: url(pattern.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: cover;
-    color:white;
-    font-weight: 300;
-    font-family: 'Trebuchet MS';
-    letter-spacing: 2px;
-
-    
-}
-
-
-
-
-.item-c {
-    border: 3px solid white;
-    padding: 20px;
-    width: 50vh;
-    height: 60vh;
-    border-radius: 10px;
-    padding: 10px;
-    margin-top: 50px;
-    background-image: url(pattern.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: cover;
-    color:white;
-    font-weight: 100;
-    font-family: 'Trebuchet MS';
-    letter-spacing: 2px;
 
 }
+
+
 
 span {
     text-decoration: underline;
@@ -150,7 +112,7 @@ span {
 
 label {
     padding-left: 20px;
-    margin-bottom:20px ;    
+    margin-bottom:20px ;
 }
 
 #text {
@@ -168,7 +130,7 @@ textarea {
     padding-top: 20px;
     font-family: 'Trebuchet MS';
     font-size: small;
-    
+
 }
 
 button {
